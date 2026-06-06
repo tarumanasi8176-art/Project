@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('../images/college.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    margin-top: 50px;
+}
